@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "main.h"
 /**
 *_memset - The _memset() function fills
