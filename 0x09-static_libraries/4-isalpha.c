@@ -1,24 +1,22 @@
 #include "main.h"
-		
 /**
- * _isalpha - checks for lowercase character
+ * _isalpha - check the code for Holberton School students.
  *
- * @c: parameter is hard-coded in main function
+ * @c: is c an integer argument
  *
- * Return: 0 or 1
+ * Return: Always 0.
  */
 
 int _isalpha(int c)
 {
-	int i;
 
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+	if (c >= 97 && c <= 122)
 	{
-		i = 1;
+		return (1);
 	}
-	else
+	else if (c >= 65 && c <= 90)
 	{
-		i = 0;
+		return (1);
 	}
-	return (i);
+	return (0);
 }
